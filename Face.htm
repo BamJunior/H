@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>dixbamsociety</title>
+
+    	<meta charset="UTF-8">
+
+    	<link rel="stylesheet" href="css.css">
+
+    	<p1> <style="color:orange;"> dixbamsociety </p1>
+
+    	<img src ="Bam.png"alt="logo dd lz societe">
+
+    
+
+    </head>
+
+    
+
+    <body>
+
+	   <header>
+
+		<nav>
+
+			<ul>
+
+				<li><a href="Connexion.html">Accueil</a></li>
+
+				<li><a href="#">Acheter</a></li>
+
+				<li><a href="#">Vendre</a></li>
+
+				<li><a href="#">Portefeuille</a></li>
+
+				<li><a href="#">Statistiques</a></li>
+
+				<li><a href="aplphp.php">Contact</a></li>
+
+			</ul>
+
+		</nav>
+
+		<p>dixbamsociety - Plateforme sécurisée d'échange de monnaies
+
+Échangez vos monnaies avec une expérience inédite. En un temps record et à un taux de change optimal, tout cela en quelques clics seulement.</p>
+
+	</header>
+
+		<main>
+
+		<section class="buy">
+
+			<h2>Acheter des cryptomonnaies</h2>
+
+			<form>
+
+				<label for="crypto">Crypto :</label>
+
+				<select name="crypto" id="crypto">
+
+					<option value="bitcoin">Bitcoin</option>
+
+					<option value="ethereum">Ethereum</option>
+
+					<option value="litecoin">Litecoin</option>
+
+					<option value="USDT (TRC 20)">USDT (TRC 20) </option>
+
+				</select>
+
+				
+
+				<label for="amount">Montant :</label>
+
+				<input type="number" id="amount" name="amount" required>
+
+				
+
+				<input type="submit" value="Acheter">
+
+			</form>
+
+		</section>
+
+		
+
+		<section class="sell">
+
+			<h2>Vendre des cryptomonnaies</h2>
+
+			<form>
+
+				<label for="crypto">Crypto :</label>
+
+				<select name="crypto" id="crypto">
+
+					<option value="bitcoin">Bitcoin</option>
+
+					<option value="ethereum">Ethereum</option>
+
+					<option value="litecoin">Litecoin</option>
+
+					<option value="USDT (TRC 20)">USDT (TRC 20) </option>
+
+				</select>
+
+				
+
+				<label for="amount">Montant :</label>
+
+				<input type="number" id="amount" name="amount" required>
+
+				
+
+				<input type="submit" value="Vendre">
+
+			</form>
+
+		</section>
+
+		
+
+		<section class="portfolio">
+
+			<center><h2>STATISTIQUE</h2></center>
+
+			<center><table>
+
+				<thead>
+
+					<tr>
+
+						<th>Crypto</th>
+
+						<th>Quantité</th>
+
+						<th>Valeur totale</th>
+
+					</tr>
+
+				</thead>
+
+				<tbody>
+
+					<tr>
+
+						<td>Bitcoin</td>
+
+						<td>5.12</td>
+
+						<td>45 000 €</td>
+
+					</tr>
+
+					<tr>
+
+						<td>Ethereum</td>
+
+						<td>13.76</td>
+
+						<td>23 000 €</td>
+
+					</tr>
+
+					<tr>
+
+						<td>Litecoin</td>
+
+						<td>24.21</td>
+
+						<td>7 500 €</td>
+
+					</tr>
+
+				</tbody>
+
+			</center></table>
+
+		</section>
+
+		
+
+		<section class="stats">
+
+			<h2><center>Statistiques sur les cryptomonnaies</center></h2>
+
+			<canvas id="chart"></canvas>
+
+		</section>
+
+	</main>
+
+	
+
+	<footer>
+
+		<center><p>&copy; 2023 dixbamsociety</p></center>
+
+	</footer>
+
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
